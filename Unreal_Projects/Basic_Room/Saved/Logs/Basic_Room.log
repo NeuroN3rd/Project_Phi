@@ -1,0 +1,177 @@
+﻿Log file open, 10/19/16 13:07:06
+LogInit:Display: Running engine for game: Basic_Room
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1367162512) SRandInit(1367162515).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.066346
+LogInit: Version: 4.12.0-2992821+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 2992821
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): May 27 2016 11:23:54
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.19-12.07.06:550][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.19-12.07.06:550][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.19-12.07.06:557][  0]LogInit: Computer: MJOLNIR
+[2016.10.19-12.07.06:557][  0]LogInit: User: rhoda
+[2016.10.19-12.07.06:557][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.19-12.07.06:557][  0]LogInit: High frequency timer resolution =3.420595 MHz
+[2016.10.19-12.07.06:557][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.19-12.07.06:557][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.19-12.07.06:557][  0]LogMemory: Process Physical Memory: 190.55 MB used, 190.55 MB peak
+[2016.10.19-12.07.06:557][  0]LogMemory: Process Virtual Memory: 196.41 MB used, 196.41 MB peak
+[2016.10.19-12.07.06:557][  0]LogMemory: Physical Memory: 5551.85 MB used, 16327.94 MB total
+[2016.10.19-12.07.06:557][  0]LogMemory: Virtual Memory: 520.62 MB used, 8388608.00 MB total
+[2016.10.19-12.07.06:604][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.19-12.07.06:933][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.19-12.07.06:956][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2016.10.19-12.07.06:956][  0]LogD3D11RHI:       8085/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.19-12.07.06:956][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.19-12.07.06:960][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.19-12.07.06:960][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.19-12.07.06:960][  0]LogWindows: EnumDisplayDevices:
+[2016.10.19-12.07.06:961][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2016.10.19-12.07.06:961][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2016.10.19-12.07.06:961][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.10.19-12.07.06:962][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.10.19-12.07.06:962][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.19-12.07.06:962][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.19-12.07.06:962][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.19-12.07.06:962][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.19-12.07.06:962][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2016.10.19-12.07.06:962][  0]LogD3D11RHI:   Driver Version: 373.06 (internal:21.21.13.7306, unified:373.06)
+[2016.10.19-12.07.06:962][  0]LogD3D11RHI:      Driver Date: 10-1-2016
+[2016.10.19-12.07.06:962][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.19-12.07.06:972][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.19-12.07.06:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.19-12.07.06:983][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/Intermediate/Shaders/WorkingDirectory/9192/).
+[2016.10.19-12.07.06:983][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rhoda/AppData/Local/Temp/UnrealShaderWorkingDir/06CA80FC4299C08FD5EBAC976FEED5F5/'.
+[2016.10.19-12.07.06:983][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.19-12.07.07:835][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.19-12.07.07:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.19-12.07.07:852][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.19-12.07.07:861][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.19-12.07.07:870][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.19-12.07.07:877][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.19-12.07.07:885][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.19-12.07.07:893][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.19-12.07.07:900][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.19-12.07.07:908][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.19-12.07.07:916][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.19-12.07.07:931][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.19-12.07.07:931][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.19-12.07.07:932][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.19-12.07.07:953][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.19-12.07.07:960][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.19-12.07.07:968][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.19-12.07.07:976][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.19-12.07.07:984][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.19-12.07.07:984][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.19-12.07.08:062][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/rhoda/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/rhoda/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.19-12.07.08:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.19-12.07.08:115][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.19-12.07.08:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rhoda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.19-12.07.08:297][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.19-12.07.08:298][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.19-12.07.08:439][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.19-12.07.08:439][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.19-12.07.08:439][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.19-12.07.08:665][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2016.10.19-12.07.08:686][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019240 seconds
+[2016.10.19-12.07.08:692][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.19-12.07.08:692][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.19-12.07.08:692][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.19-12.07.08:699][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.19-12.07.08:865][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.19-12.07.08:865][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.19-12.07.09:589][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.19-12.07.09:787][  0]SourceControl: Info Source control is disabled
+[2016.10.19-12.07.09:788][  0]SourceControl: Info Source control is disabled
+[2016.10.19-12.07.09:796][  0]SourceControl: Info Source control is disabled
+[2016.10.19-12.07.09:804][  0]SourceControl: Info Source control is disabled
+[2016.10.19-12.07.10:014][  0]LogEngine: Initializing Engine...
+[2016.10.19-12.07.10:035][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.10.19-12.07.10:046][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.10.19-12.07.10:165][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.19-12.07.10:182][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.10.19-12.07.10:219][  0]LogInit: FAudioDevice initialized.
+[2016.10.19-12.07.10:241][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/rhoda/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.19-12.07.10:246][  0]LogInit: Texture streaming: Enabled
+[2016.10.19-12.07.10:272][  0]LogInit: Transaction tracking system initialized
+[2016.10.19-12.07.10:298][  0]BlueprintLog: New page: Editor Load
+[2016.10.19-12.07.10:453][  0]LocalizationService: Info Localization service is disabled
+[2016.10.19-12.07.10:553][  0]LogConsoleResponse:Display: 
+[2016.10.19-12.07.10:646][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/Content/' took 0.01s
+[2016.10.19-12.07.10:646][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.19-12.07.10:646][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.19-12.07.10:753][  0]SourceControl: Info Source control is disabled
+[2016.10.19-12.07.10:753][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.19-12.07.10:754][  0]LightingResults: New page: Lighting Build
+[2016.10.19-12.07.10:756][  0]MapCheck: New page: Map Check
+[2016.10.19-12.07.10:756][  0]LightingResults: New page: Lighting Build
+[2016.10.19-12.07.10:974][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.19-12.07.10:979][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.19-12.07.10:983][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.19-12.07.11:033][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.515ms to complete.
+[2016.10.19-12.07.11:034][  0]LogFileHelpers: Loading map 'Template_Default' took 0.280
+[2016.10.19-12.07.11:181][  0]LogCollectionManager: Loaded 0 collections in 0.001468 seconds
+[2016.10.19-12.07.11:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/Saved/Collections/' took 0.01s
+[2016.10.19-12.07.11:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/Content/Developers/rhoda/Collections/' took 0.01s
+[2016.10.19-12.07.11:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rhoda/Documents/GitHub/Project_Phi/Unreal_Projects/Basic_Room/Content/Collections/' took 0.01s
+[2016.10.19-12.07.11:222][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.19-12.07.11:229][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2047 classes and 369 folders.
+[2016.10.19-12.07.11:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.19-12.07.11:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.19-12.07.11:233][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.19-12.07.11:238][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.19-12.07.11:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.19-12.07.11:538][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.19-12.07.11:551][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.19-12.07.11:555][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.19-12.07.11:580][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.19-12.07.11:580][  0]LogLoad: Full Startup: 5.58 seconds (BP compile: 0.03 seconds)
+[2016.10.19-12.07.11:580][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.19-12.07.11:589][  0]LogOcInput: OculusInput pre-init called
+[2016.10.19-12.07.11:610][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.19-12.07.11:759][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.10.19-12.07.11:842][  1]LogAssetRegistry: Asset discovery search completed in 3.1974 seconds
+[2016.10.19-12.07.11:842][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 
